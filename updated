@@ -36,8 +36,8 @@ local MovementTab = Window:CreateTab("MovementTab", 4483362458) -- Title, Image
 local Section = MovementTab:CreateSection("Movement")
 
 
-local HoopsNationTab = Window:CreateTab("MovementTab", 4483362458) -- Title, Image
-local Section = MovementTab:CreateSection("Movement")
+local HoopsNationTab = Window:CreateTab("HoopsNation", 4483362458) -- Title, Image
+local Section = HoopsNation:CreateSection("HoopsNation")
 
 local Button = HoopsNationTab:CreateButton({
    Name = "best gui",
