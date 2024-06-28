@@ -87,7 +87,7 @@ local Button = CombatTab:CreateButton({
 })
 
 local Button = CombatTab:CreateButton({
-   Name = "esp",
+   Name = "sping bot",
    Callback = function()
              loadstring(game:HttpGet("https://raw.githubusercontent.com/Lennox2010/spinbot/main/spinbot.lua"))()
    end,
