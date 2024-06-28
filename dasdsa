@@ -87,6 +87,12 @@ local Button = CombatTab:CreateButton({
 })
 
 local Button = CombatTab:CreateButton({
+   Name = "esp",
+   Callback = function()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/Lennox2010/spinbot/main/spinbot.lua"))()
+   end,
+})
+local Button = CombatTab:CreateButton({
    Name = "Hitbox",
    Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UjcfSzdH"))()
@@ -529,7 +535,7 @@ local Button = CombatTab:CreateButton({
    end,
 })
 
-local Button = CombatTab:CreateButton({
+local Button = MovementTab:CreateButton({
    Name = "no clip",
    Callback = function()
    --[[
