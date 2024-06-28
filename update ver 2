@@ -4,7 +4,7 @@ print(HWIDTable)
 for i,v in pairs(HWIDTable) do
     if v == HWID then
        print("Hardware ID PASSED LOAD SCRIPT")
-	local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/umeurn/loladasdsad/main/dasdadad'))()
+	local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "CLOWN HUB V5",
