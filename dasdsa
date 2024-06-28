@@ -82,7 +82,7 @@ local Section = CombatTab:CreateSection("Combat")
 local Button = CombatTab:CreateButton({
    Name = "esp",
    Callback = function()
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/Lennox2010/mnynbe/main/ss.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Lennox2010/11222/main/11222.lua"))()
    end,
 })
 
